@@ -10,8 +10,6 @@ Select an integer h that is valid for the current values in nums.
 For each index i where nums[i] > h, set nums[i] to h.
 Return the minimum number of operations required to make every element in nums equal to k. If it is impossible to make all elements equal to k, return -1.
 
- 
-
 Example 1:
 
 Input: nums = [5,2,5,4,5], k = 2
@@ -42,11 +40,7 @@ Explanation:
 
 The operations can be performed using valid integers in the order 7, 5, 3, and 1.
 
-
-
 ###############################     Solution           ######################################
-
-
 
 class Solution:
   def minOperations(self, nums: list[int], k: int) -> int:
