@@ -23,7 +23,7 @@ The number of nodes in both lists is in the range [0, 50].
 -100 <= Node.val <= 100
 Both list1 and list2 are sorted in non-decreasing order.
 
-################################################### Solution ###########################################
+################################################### Solution ##########################################
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -45,8 +45,9 @@ class Solution:
 
             current = current.next
 
-        # attaching the remaining part
+        # Attaching the remaining part
         current.next = list1 if list1 else list2
+        
         # If we returned dummy, we would return a node with default value 0 (from ListNode()) that is not part of the actual merged list. That node was only used to make appending easier.
         return dummy.next
 
