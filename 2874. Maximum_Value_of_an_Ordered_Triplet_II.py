@@ -4,8 +4,6 @@ Return the maximum value over all triplets of indices (i, j, k) such that i < j 
 
 The value of a triplet of indices (i, j, k) is equal to (nums[i] - nums[j]) * nums[k].
 
- 
-
 Example 1:
 
 Input: nums = [12,6,1,2,7]
