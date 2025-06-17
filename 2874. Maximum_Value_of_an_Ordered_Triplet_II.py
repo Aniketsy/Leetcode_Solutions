@@ -22,11 +22,7 @@ Input: nums = [1,2,3]
 Output: 0
 Explanation: The only ordered triplet of indices (0, 1, 2) has a negative value of (nums[0] - nums[1]) * nums[2] = -3. Hence, the answer would be 0.
 
-
-
 ##############################  Solution  ##############################
-
-
 class Solution:
   # Same as 2873. Maximum Value of an Ordered Triplet I
   def maximumTripletValue(self, nums: list[int]) -> int:
