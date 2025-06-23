@@ -25,6 +25,7 @@ The number of nodes in both trees is in the range [0, 100].
 -104 <= Node.val <= 104
 
 #################################### Solution ---BFS   ############################
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -52,6 +53,7 @@ class Solution:
         return True
 
 ##################################################################################################
+
 Leetcode: 226
 Given the root of a binary tree, invert the tree, and return its root.
 
@@ -75,6 +77,7 @@ The number of nodes in the tree is in the range [0, 100].
 -100 <= Node.val <= 100
 
 ##########################  Solution----BFS  ########################################3
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
