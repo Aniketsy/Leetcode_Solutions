@@ -12,7 +12,6 @@ Logic:
 
   Count how many times DFS is initiated — this equals the number of components.
 
-
 Code :
 def countComponents(n, edges):
     # Step 1: Create an adjacency matrix of size n x n initialized with 0
@@ -41,8 +40,8 @@ def countComponents(n, edges):
    
     return count
 
-
 ################## Improved Approach ------ Adjacency List + DFS ####################  T.C = O(n+E), S.C = O(n+E)
+
 from collections import defaultdict
 
 def countComponents(n, edges):
