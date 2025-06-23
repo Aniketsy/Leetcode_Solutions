@@ -5,10 +5,7 @@ Given the roots of two binary trees p and q, write a function to check if they a
 
 Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
 
- 
-
 Example 1:
-
 
 Input: p = [1,2,3], q = [1,2,3]
 Output: true
@@ -49,10 +46,7 @@ Letcode : 226
 
 Given the root of a binary tree, invert the tree, and return its root.
 
- 
-
 Example 1:
-
 
 Input: root = [4,2,7,1,3,6,9]
 Output: [4,7,2,9,6,3,1]
@@ -85,12 +79,9 @@ class Solution:
 
 ###########################################################################################################
 Leetcode: 101
-Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
-
- 
+Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center) 
 
 Example 1:
-
 
 Input: root = [1,2,2,3,4,4,3]
 Output: true
