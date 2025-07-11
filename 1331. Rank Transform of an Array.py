@@ -62,6 +62,7 @@ Step 2: Assign the rank
 Step 3: Replace each element of the arr to its assigned rank as we need output an array which contains rank .
 """
 
+########################  Solution #########################################
 class Solution(object):
     def arrayRankTransform(self, arr):
         # Step 1
