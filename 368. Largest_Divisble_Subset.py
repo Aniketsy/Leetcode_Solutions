@@ -4,8 +4,6 @@ answer[i] % answer[j] == 0, or
 answer[j] % answer[i] == 0
 If there are multiple solutions, return any of them.
 
- 
-
 Example 1:
 
 Input: nums = [1,2,3]
@@ -15,10 +13,8 @@ Example 2:
 
 Input: nums = [1,2,4,8]
 Output: [1,2,4,8]
- 
 
 ##########################   Solution   #############################
-
 
 class Solution:
   def largestDivisibleSubset(self, nums: list[int]) -> list[int]:
