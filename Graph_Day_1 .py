@@ -2,7 +2,7 @@
 Given n nodes labeled from 0 to n - 1 and a list of undirected edges, 
 return the number of connected components in the graph.
 
-######## Brute Force Approach --- Adjacency Matrix + DFS  ###############  T.C = O(n^2) , S.C = O(n^2)
+####### Brute Force Approach --- Adjacency Matrix + DFS  ###############  T.C = O(n^2) , S.C = O(n^2)
 
 "First, I’d try the brute-force approach using an adjacency matrix and DFS. Although not space-efficient, it helps to visualize the problem."
 Logic:
@@ -94,8 +94,7 @@ def countComponents(n, edges):
     # Step 5: Count unique roots — each unique root is a separate connected component
     return len(set(find(i) for i in range(n)))
 
-
-#############################################################################
+#########################################################################################3
 
 🗣️ How to Wrap Up Your Answer in the Interview:
 "So, I began with a brute-force matrix-based DFS, which is space-heavy. 
