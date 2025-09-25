@@ -2,8 +2,6 @@ You are given two positive integers n and limit.
 
 Return the total number of ways to distribute n candies among 3 children such that no child gets more than limit candies.
 
- 
-
 Example 1:
 
 Input: n = 5, limit = 2
@@ -18,7 +16,7 @@ Explanation: There are 10 ways to distribute 3 candies such that no child gets m
 
 ############################# Brute Force---------------Solution (Time Limit Exceed)#######################
 
-lass Solution:
+class Solution:
     def distributeCandies(self, n: int, limit: int) -> int:
         count = 0
         for a in range(limit +1):
@@ -28,7 +26,6 @@ lass Solution:
                     count +=1
 
         return count
-
 
 ####################### Optimal Solution #######################################################
 
