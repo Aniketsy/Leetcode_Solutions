@@ -8,10 +8,7 @@ After the process, answer[i] is the maximum number of points you can get. Note t
 
 Return the resulting array answer.
 
- 
-
 Example 1:
-
 
 Input: grid = [[1,2,3],[2,5,7],[3,5,1]], queries = [5,6,2]
 Output: [5,8,1]
