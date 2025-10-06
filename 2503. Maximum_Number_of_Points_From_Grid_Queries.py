@@ -13,15 +13,12 @@ Example 1:
 Input: grid = [[1,2,3],[2,5,7],[3,5,1]], queries = [5,6,2]
 Output: [5,8,1]
 Explanation: The diagrams above show which cells we visit to get points for each query.
+    
 Example 2:
-
 
 Input: grid = [[5,2,1],[1,1,2]], queries = [3]
 Output: [0]
 Explanation: We can not get any points because the value of the top left cell is already greater than or equal to 3.
-
-
-
 
 ######################## Solution ###############################
 
@@ -50,4 +47,3 @@ class Solution:
                        visit.add((nr,nc))
             res[index] = points
         return res
-
