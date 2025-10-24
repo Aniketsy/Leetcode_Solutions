@@ -22,27 +22,23 @@ Explanation: Subarray [-2] has maximum sum -2.
 
 
 ####################################################     Solution         #####################################
+
 class Solution:
     def maxSubarraySumCircular(self, nums: List[int]) -> int:
         total =0
         max_sum , min_sum = nums[0], nums[0]
         cur_max , cur_min = 0, 0
-        
-
-        for i in range(len(nums)):
-            
+    
+        for i in range(len(nums)): 
             cur_max = max(nums[i], cur_max +nums[i])
             max_sum = max(max_sum, cur_max)
 
             cur_min = min(nums[i], cur_min +nums[i])
             min_sum = min(min_sum, cur_min)
-
             total += nums[i]
-
+            
         if max_sum < 0:        ### handle negative numbers
-            return max_sum
-         
-
+            return max_sum        
         return max(max_sum, total - min_sum)           # total - min_sum gives maximum circular  subarray sum
 
         
