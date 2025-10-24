@@ -42,8 +42,6 @@ class Solution:
        b = max(nums)
        return EuclidGCD(a,b)
 
-
-
 ##################################### Not --Recursive ######################################
 
 class Solution:
